@@ -10,6 +10,7 @@
 ![Market Data](https://img.shields.io/badge/Data-PUBLIC%20%2F%20DEMO-0f766e)
 ![Execution](https://img.shields.io/badge/Order%20Execution-DISABLED-red)
 ![License](https://img.shields.io/badge/License-MIT-64748b)
+[![ArbiScope tests](https://github.com/rajachanna/ArbiScope-Pro/actions/workflows/tests.yml/badge.svg)](https://github.com/rajachanna/ArbiScope-Pro/actions/workflows/tests.yml)
 
 **[Dashboard source](src/arbiscope/static/index.html) · [Pricing engine](src/arbiscope/engine.py) · [Tests](tests) · [Technical case study](docs/CASE_STUDY.md) · [Contact](https://nextgentechdev.com)**
 
