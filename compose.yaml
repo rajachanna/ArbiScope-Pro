@@ -1,0 +1,13 @@
+services:
+  arbiscope:
+    build: .
+    env_file: .env
+    environment:
+      AS_DB_PATH: /data/arbiscope.sqlite
+    ports:
+      - "127.0.0.1:8000:8000"
+    volumes:
+      - research-data:/data
+    restart: unless-stopped
+volumes:
+  research-data:

@@ -1,0 +1,4 @@
+# After explicitly enabling AS_ENABLE_LIVE_READS=YES and installing any required dependencies:
+# Choose a token address you have independently verified on the selected network.
+# GET http://127.0.0.1:8000/api/dex/pools?chain=solana&token_address=YOUR_TOKEN_ADDRESS
+# The endpoint returns indicative public pool metadata, not an executable DEX trade.
